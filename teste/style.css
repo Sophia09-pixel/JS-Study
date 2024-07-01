@@ -1,0 +1,26 @@
+.div_aviso {
+    display: flex;
+    justify-content: center; 
+    align-items: center; /* Alinha verticalmente os itens */
+    margin-top: 100px; 
+}
+
+.titulo {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-right: 20px; /* Espaçamento entre o título e o label */
+}
+
+.aviso {
+    width: 300px; /* Ajustado para uma largura mais adequada */
+    padding: 3px;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    /* Remover margens automáticas para centralizar */
+    margin: 0; 
+}
